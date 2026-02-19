@@ -228,7 +228,7 @@ let avgOfElements = (array) => {
     console.log("The average of the elements in myArrayTwo is " + avg);
 }
 
-console.log(avgOfElements(myArrayTwo));
+avgOfElements(myArrayTwo);
 
 console.log("// ----------QUESTION 11------------//");
 
@@ -337,7 +337,7 @@ let numOfCans = 8;
     console.log("How much cat food do I have?");
      while (numOfCans > 2) {
         console.log("Today I have " + numOfCans + " cans of cat food left."); // each iteration (except when numOfCans is 2) shows I have enough food.
-        numOfCans--;
+        numOfCans = numOfCans - 2;
       }
       if (numOfCans === 2) {
         console.log("Today I see that I have " + numOfCans +" more cans of cat food left. I need to get more tomorrow."); // conditional lets me know if I need to go shopping
